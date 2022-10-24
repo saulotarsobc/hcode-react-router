@@ -1,0 +1,12 @@
+#models {
+    #model {
+        cursor: pointer;
+        font-size: 22px;
+        font-weight: bold;
+        transition: color .2s ease-in-out;
+
+        &:hover{
+            color: red;
+        }
+    }
+}

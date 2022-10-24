@@ -1,0 +1,17 @@
+#footer {
+    background-color: #191f22;
+    color: #fff;
+    padding: 4.5em 7%;
+    margin-top: 50px;
+
+    .copyright {
+        line-height: 1.5em;
+
+        p {
+
+            &+p {
+                margin-top: 10px;
+            }
+        }
+    }
+}
